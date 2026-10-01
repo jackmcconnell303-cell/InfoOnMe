@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="Business Logo.png" alt="Business Logo" class="logo">
+        <h1>Contact</h1>
+        <nav>
+            <ul>
+                <li><a href="MyPortfolio.html">Home</a></li>
+                <li><a href="AboutMe.html">About Me</a></li>
+                <li><a href="Socials.html">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Register</h2>
+        <p>Feel free to register for enquiries on building a website:</p>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email">
+
+        <label for="date">Preferred Date:</label>
+        <input type="date" id="date">
+
+        <button type="submit">Submit</button>
+
+        <h2>Check enquiry information</h2>
+        <p>Feel free to check the information you have submitted:</p>
+        <button type="button" onclick="displayInfo()">Display Information</button>
+
+        <div class="info-block">
+            <label>Name:</label>
+            <p id="display-name">No name entered</p>
+
+            <label>Email:</label>
+            <p id="display-email">No email entered</p>
+
+            <label>Preferred Date:</label>
+            <p id="display-date">No date entered</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Your Company. All rights reserved.</p>
+    </footer>
+
+    <script src="Register.Js"></script>
+</body>
+</html>

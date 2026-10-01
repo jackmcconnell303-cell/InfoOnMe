@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f3f5f7;
+    color: #1b1b1b;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    background: #1f2a44;
+    color: #ffffff;
+    padding: 20px 30px;
+}
+
+.logo {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    border-radius: 12px;
+    background: #ffffff;
+    padding: 8px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main,
+section,
+body > h1,
+body > p,
+body > ul,
+footer {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+main,
+section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h1, h2 {
+    color: #1f2a44;
+}
+
+.social-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.social-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.social-item button {
+    background: #1f2a44;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 18px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.social-item button:hover {
+    background: #374d7a;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+label,
+input,
+button {
+    display: block;
+    margin-bottom: 12px;
+}
+
+input {
+    width: min(100%, 320px);
+    padding: 10px 12px;
+    border: 1px solid #cdd3da;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+button[type="submit"],
+button[data-action="display-info"] {
+    background: #1f2a44;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 18px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button[type="submit"]:hover,
+button[data-action="display-info"]:hover {
+    background: #374d7a;
+}
+
+.info-block {
+    margin-top: 10px;
+}
+
+.info-block p {
+    margin: 6px 0 14px;
+    font-weight: 600;
+}
+
+footer {
+    background: #1f2a44;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
